@@ -7,8 +7,7 @@ namespace GameOfLifeTests
         [SetUp]
         public void Setup()
         {
-            //TEst
-            //sdfgsdfg
+            //Test2
         }
 
         [Test]
