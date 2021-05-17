@@ -8,42 +8,42 @@ namespace GameOfLifeTests
     public class GameOfLifeCheckTest
     {
         [TestMethod]
-        public void setAbove1()
+        public void setAboveFrom1()
         {
             //Arrange
             GameOfLife gol = new GameOfLife(3,3);
 
             //Act
-            gol.setAbove(1);
+            gol.Above = 2;
 
             //Assert
-            Assert.AreEqual(gol.getAbove(), 1);
+            Assert.AreEqual(gol.Above, 1);
         }
 
         [TestMethod]
-        public void setBelow12()
+        public void setBelowOf14()
         {
             //Arrange
             GameOfLife gol = new GameOfLife(14, 14);
 
             //Act
-            gol.setBelow(12);
+            gol.Below = 14;
 
             //Assert
-            Assert.AreEqual(gol.getBelow(), 12);
+            Assert.AreEqual(gol.Below, 0);
         }
 
         [TestMethod]
-        public void setLeft45()
+        public void setLeftFrom45()
         {
             //Arrange
             GameOfLife gol = new GameOfLife(50, 50);
 
             //Act
-            gol.setLeft(45);
+            gol.Left = 46;
 
             //Assert
-            Assert.AreEqual(gol.getLeft(), 45);
+            Assert.AreEqual(gol.Left, 45);
         }
     }
 }
