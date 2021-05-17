@@ -8,7 +8,7 @@ namespace GameOfLifeTests
     public class GameOfLifeCheckTest
     {
         [TestMethod]
-        public void setAboveFrom1()
+        public void setAboveOf1()
         {
             //Arrange
             GameOfLife gol = new GameOfLife(3,3);
@@ -34,7 +34,7 @@ namespace GameOfLifeTests
         }
 
         [TestMethod]
-        public void setLeftFrom45()
+        public void setLeftOf46()
         {
             //Arrange
             GameOfLife gol = new GameOfLife(50, 50);
